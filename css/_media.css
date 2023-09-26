@@ -1,0 +1,803 @@
+@media (max-width: 1500px) {
+    /* Header */
+
+    .header-container {
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    .header-logo {
+        margin-bottom: 10px;
+    }
+
+    .header-nav {
+        width: 100%;
+        padding: 0;
+    }
+
+    .header-list {
+        width: 100%;
+    }
+
+    .header-item:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .header-btn {
+        position: absolute;
+        top: auto;
+        left: auto;
+        right: 40px;
+    }
+
+    /* Gallery */
+
+    .gallery-block {
+        flex-direction: column;
+    }
+
+    .gallery-title {
+        margin-bottom: 16px;
+    }
+
+    .gallery-list-checkbox {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .gallery-paintings {
+        justify-content: space-between;
+    }
+
+    /* Catalog */
+
+    .catalog-item {
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    .catalog-img {
+        margin: 0;
+    }
+
+    .descr-center {
+        margin-bottom: 30px;
+    }
+
+    .catalog-name {
+        padding-top: 33px;
+    }
+
+    .name-last {
+        padding: 0;
+        margin-top: 34px;
+    }
+
+    /* Events */
+
+    .events-card {
+        padding: 14px 34px 50px 34px;
+    }
+
+    .events-info-date {
+        text-align: right;
+        font-weight: var(--regular); /* 400 */
+    }
+
+    .item-descr {
+        margin-bottom: 0;
+    }
+
+    /* Registration */
+
+    .registration-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .registration-addres {
+        margin-bottom: 30px;
+    }
+
+    .registration-title {
+        margin-bottom: 10px;
+    }
+
+    .registration-from {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 1024px) {
+    /* Glob */
+
+    .container {
+        max-width: 1024px;
+    }
+
+    /* Header */
+
+    .header-container {
+        padding-bottom: 21px;
+        padding-top: 27px;
+        align-items: baseline;
+    }
+
+    .header-logo {
+        margin: 0;
+        margin-bottom: 14px;
+    }
+
+    .header-logo-img {
+        width: 187px;
+    }
+
+    .header-btn {
+        top: 37px;
+        right: 45px;
+    }
+
+    .header-list {
+        width: 99%;
+    }
+
+    /* Hero */
+
+    .hero-container {
+        padding: 103px 0;
+    }
+
+    .hero-descr {
+        margin-bottom: 129px;
+        max-width: 700px;
+    }
+
+    /* Gallery */
+
+    .gallery-list-checkbox {
+        margin-bottom: 20px;
+    }
+
+    /* Catalog */
+
+    .catalog-img {
+        width: 100%;
+    }
+
+    .section-catalog-descr {
+        margin-bottom: 40px;
+    }
+
+    /* Events */
+
+    .events-position {
+        min-height: inherit;
+    }
+
+    .events-card {
+        padding-top: 19px;
+    }
+
+    .events-card-info {
+        margin-bottom: 50px;
+    }
+
+    .events-info-date {
+        margin-bottom: 7px;
+    }
+
+    .events-item-title {
+        width: 100%;
+        margin-bottom: 6px;
+    }
+
+    .catalog-item-link {
+        padding-top: 9px;
+    }
+
+    .events-picture {
+        height: 194px;
+    }
+
+    .events-img {
+        height: 197px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /* Projects */
+
+    .section-projects {
+        margin-bottom: 79px;
+    }
+
+    .section-registration {
+        padding-top: 43px;
+    }
+
+    .projects-title {
+        padding-top: 81px;
+    }
+
+    .projects-descr {
+        width: 100%;
+        margin-bottom: 23px;
+    }
+
+    .partners-img:not(:last-child) {
+        margin-right: 23px;
+    }
+
+    /* Registration */
+
+    .section-registration {
+        padding-bottom: 40px;
+    }
+
+    .registration-from {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .registration-invalid:nth-child(-n + 2) {
+        margin-bottom: 20px;
+    }
+
+    .registration-addres {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .registration-input {
+        width: 300px;
+    }
+
+    .registration-btn {
+        left: 1px;
+        font-size: 19px;
+    }
+
+    .connection-title {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .connection-list {
+        padding: 0;
+    }
+
+    /* Footer */
+
+    .footer-list {
+        position: relative;
+        right: -1px;
+        top: -5px;
+    }
+
+    .footer-svg {
+        width: 60px;
+        height: 61px;
+    }
+}
+
+@media (max-width: 870px) {
+    /* Header */
+
+    .header-logo {
+        margin-bottom: 14px;
+    }
+
+    .header-nav {
+        overflow-x: scroll;
+        height: 91%;
+        width: 100%;
+    }
+
+    .header-nav::-webkit-scrollbar {
+        display: none;
+    }
+
+    .header-item:not(:last-child) {
+        margin-right: 24px;
+    }
+
+    /* Hero */
+
+    .hero-container {
+        padding-top: 90px;
+        padding-bottom: 86px;
+    }
+
+    .hero-title {
+        margin-bottom: 17px;
+    }
+
+    .hero-descr {
+        max-width: 579px;
+    }
+
+    /* About us */
+
+    .about-descr {
+        margin-bottom: 106px;
+    }
+
+    /* Gallery */
+
+    .section-gallery {
+        background-image: url(../img/background-gallery-sm.png);
+        background-position: top;
+    }
+
+    .gallery-item-paintings:not(:last-child) {
+        margin-right: 35px;
+    }
+
+    /* Catalog */
+
+    .catalog-date {
+        margin-bottom: 7px;
+    }
+
+    .catalog-item-link {
+        padding-top: 16px;
+    }
+
+    .catalog-item:nth-child(1) {
+        margin-bottom: 80px;
+    }
+
+    .catalog-item:nth-child(2) {
+        margin-bottom: 49px;
+    }
+
+    .catalog-item:nth-child(3) {
+        margin-bottom: 32px;
+    }
+
+    .catalog-descr-mid {
+        margin-bottom: 0;
+    }
+
+    /* Events */
+
+    .events-card {
+        display: block;
+    }
+
+    /* .events-position {
+        max-height: 521px;
+    } */
+
+    .events-picture {
+        object-fit: cover;
+        /* height: 200px; */
+    }
+
+    .events-item-title {
+        max-width: 470px;
+    }
+
+    /* 521px */
+
+    .events-list {
+        flex-wrap: wrap;
+    }
+
+    .events-item {
+        width: 100%;
+    }
+
+    .events-item:not(:last-child) {
+        margin: 0;
+        margin-bottom: 33px;
+    }
+
+    .events-info-date {
+        margin-bottom: 4px;
+    }
+
+    .events-item-title {
+        margin-bottom: 14px;
+    }
+
+    /* Project */
+
+    .section-projects {
+        margin-bottom: 80px;
+    }
+
+    .projects-title {
+        padding-top: 78px;
+    }
+
+    .project-partners {
+        padding-top: 43px;
+    }
+
+    .partners-title {
+        margin-bottom: -13px;
+    }
+
+    .projects-descr {
+        margin-bottom: 62px;
+    }
+
+    /* Registration */
+
+    .section-registration {
+        padding-top: 41px;
+        padding-bottom: 40px;
+    }
+
+    .registration-title {
+        padding-bottom: 0;
+    }
+
+    .registration-input {
+        margin: 0;
+        margin-bottom: 14px;
+        min-width: 323px;
+    }
+
+    input[type="name"] {
+        margin-right: 20px;
+    }
+
+    .registration-btn {
+        width: 324px;
+        flex-shrink: 0;
+        left: 0;
+    }
+
+    /* Footer */
+
+    .footer-container {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+}
+
+@media (max-width: 600px) {
+    /* Hero */
+
+    .hero-container {
+        align-items: center;
+        text-align: center;
+        padding: 50px 0;
+    }
+    .hero-title {
+        font-size: 32px;
+        line-height: 28px;
+    }
+
+    .hero-descr {
+        margin-bottom: 40px;
+        font-weight: var(--regular); /* 400 */
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .hero-btn {
+        max-width: 200px;
+        font-size: 12px;
+        line-height: 16px;
+        padding: 11px 16px;
+        margin-bottom: 0;
+    }
+
+    /* Gallery */
+
+    .gallery-block {
+        padding-bottom: 50px;
+    }
+
+    .gallery-title {
+        padding-top: 50px;
+    }
+
+    .gallery-list-paintings {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery-item-paintings:not(:last-child) {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    /* Projects */
+
+    .project-partners {
+        flex-wrap: wrap;
+    }
+
+    .projects-title {
+        margin-bottom: 12px;
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .projects-descr {
+        margin-bottom: 12px;
+    }
+
+    .partners-title {
+        margin-bottom: 11px;
+        padding-top: 50px;
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .picture-partners:not(:last-child) {
+        margin: 0;
+        margin-bottom: 12px;
+    }
+}
+
+@media (max-width: 400px) {
+    /* Glob */
+
+    .container {
+        margin: 0 15px;
+    }
+
+    .h3-title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    /* Header */
+
+    .header-container {
+        padding-top: 11px;
+        padding-bottom: 5px;
+    }
+
+    .header-logo {
+        width: 96px;
+        height: 30px;
+        margin-bottom: auto;
+    }
+
+    .header-link {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .header-btn {
+        width: 18px;
+        right: 17px;
+        top: 10px;
+    }
+
+    /* Hero */
+
+    .hero-title {
+        margin-bottom: 7px;
+        font-size: 34px;
+        line-height: 29px;
+    }
+
+    .hero-descr {
+        max-width: 259px;
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .hero-btn {
+        padding: 8px 18px;
+    }
+
+    /* About-us */
+
+    .about-title {
+        padding-top: 50px;
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .about-descr {
+        margin-bottom: 93px;
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    /* Gallery */
+
+    .gallery-block {
+        padding-bottom: 39px;
+    }
+
+    .gallery-title {
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 12px;
+    }
+
+    .gallery-item-paintings:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    /* Catalog */
+
+    .catalog-title {
+        padding-top: 50px;
+        margin-bottom: 12px;
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .section-catalog-descr {
+        margin-bottom: 62px;
+    }
+
+    .catalog-item:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .catalog-name {
+        margin-bottom: 10px;
+        font-size: 25px;
+        padding-top: 26px;
+        line-height: 27px;
+    }
+
+    .catalog-date {
+        margin-bottom: 14px;
+    }
+
+    .catalog-descr {
+        margin-bottom: 30px;
+    }
+
+    /* Events */
+
+    .section-events {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .events-title {
+        padding-top: 7px;
+        font-size: 30px;
+        margin-bottom: -4px;
+    }
+
+    .events-position {
+        max-height: 682px;
+    }
+
+    .events-info-date {
+        margin-bottom: 12px;
+    }
+
+    .events-item:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .events-item-title {
+        margin-bottom: 5px;
+    }
+
+    .events-card-info {
+        margin-bottom: 10px;
+    }
+
+    .item-descr {
+        margin-bottom: 31px;
+    }
+
+    .item-descr-last {
+        width: 200px;
+        margin-bottom: 40px;
+    }
+
+    .last-link {
+        padding-top: 0;
+    }
+
+    /* Projects */
+
+    .section-projects {
+        margin: 0;
+    }
+
+    .projects-title {
+        padding-top: 53px;
+    }
+
+    .projects-descr {
+        font-size: 17px;
+    }
+
+    .project-partners {
+        padding-top: 0;
+    }
+
+    .partners-title {
+        padding-top: 11px;
+    }
+
+    .picture-partners {
+        padding: 28px 63px 18px 63px;
+        height: 100px;
+    }
+
+    .partners-img {
+        object-fit: cover;
+        padding: 0;
+    }
+
+    /* Registration */
+
+    .registration-from {
+        margin-bottom: 26px;
+    }
+
+    .section-registration {
+        padding-bottom: 59px;
+        padding-top: 51px;
+        border: none;
+    }
+
+    .registration-title {
+        margin-bottom: 5px;
+    }
+
+    .registration-addres {
+        margin-bottom: 13px;
+    }
+
+    .registration-input {
+        height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .registration-btn {
+        font-size: 12px;
+        line-height: 16px;
+        width: 129px;
+        min-height: 40px;
+        padding: 0;
+    }
+
+    .registration-btn::after {
+        content: "Заказать";
+    }
+
+    .registration-input {
+        min-width: 289px;
+    }
+
+    .connection-svg-link {
+        width: 50px;
+        height: 50px;
+    }
+
+    .connection-list {
+        padding-top: 7px;
+    }
+
+    /* Footer */
+
+    .footer-container {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .footer-list {
+        margin-bottom: 26px;
+    }
+
+    .footer-logo {
+        width: 100px;
+    }
+
+    .footer-svg {
+        width: 50px;
+    }
+}

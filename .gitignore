@@ -1,0 +1,7 @@
+ehthumbs.db
+Thumbs.db
+.DS_Store
+*.pdf
+*.xlsx
+/Docs
+/figma

@@ -1,0 +1,40 @@
+.section-catalog {
+    padding-bottom: 0;
+}
+
+.section-catalog-descr {
+    margin-bottom: 71px;
+}
+
+.catalog-item {
+    align-items: center;
+}
+
+.catalog-item:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.catalog-img {
+    margin-right: 50px;
+}
+
+.catalog-info {
+    flex-direction: column;
+    max-width: 800px;
+}
+
+.catalog-name {
+    padding-top: 2px;
+    margin-bottom: 8px;
+}
+
+.catalog-date {
+    color: var(--gray);
+    margin-bottom: 15px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.catalog-descr {
+    color: var(--black-light);
+}

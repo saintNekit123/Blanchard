@@ -1,0 +1,28 @@
+.projects-title {
+    font-size: 51px;
+    margin-bottom: 14px;
+}
+
+.projects-descr {
+    margin-bottom: 30px;
+    width: 63%;
+}
+
+.partners-title {
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.partners-img {
+    padding: 27px;
+}
+
+.picture-partners:not(:last-child) {
+    margin-right: 25px;
+}
+
+.picture-partners {
+    outline: none;
+    border: 1px solid var(--white-dark);
+    height: 120px;
+}

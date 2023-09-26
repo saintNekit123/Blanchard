@@ -1,0 +1,30 @@
+:root {
+    /* Шрифты */
+
+    --regular: 400;
+    --semibold: 600;
+    --bold: 700;
+    --extrabold: 800;
+
+    /* Цвета */
+    --black: #000000;
+    --black-light: #333333;
+    --gray-dark: #666666;
+    --gray: #999999;
+    --violet-transparent: #d1a9f0;
+    --violet-light: #c283f3;
+    --violet: #9d5cd0;
+    --violet-dark: #7943a4;
+    --green: #30bf39;
+    --blue: #26a5e4;
+    --red: #d11616;
+    --white-dark: #cacaca;
+    --white-light: #ececec;
+    --white: #ffffff;
+
+    /* Transitions */
+
+    --default-fs: 16px;
+    --default-lh: 32px;
+    --short: 0.2s;
+}

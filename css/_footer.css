@@ -1,0 +1,43 @@
+.footer {
+    background-color: var(--black);
+}
+
+.footer-container {
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-item {
+    height: 44px;
+}
+
+.footer-item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.footer-link {
+    display: inline-block;
+    height: inherit;
+    outline: none;
+}
+
+.footer-link path {
+    transition: fill var(--short) ease-in-out;
+}
+
+.footer-link path {
+    fill: var(--white-dark);
+}
+
+.footer-link:focus path {
+    fill: var(--white);
+}
+
+.footer-link:hover path {
+    fill: var(--white);
+}
+
+.footer-link:active path {
+    fill: var(--violet);
+}

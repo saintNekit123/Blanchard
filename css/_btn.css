@@ -1,0 +1,9 @@
+.btn {
+    display: inline-block;
+    border: none;
+    border-radius: 100px;
+    background-color: inherit;
+    -moz-outline-radius: 100px;
+    color: var(--violet);
+    transition: background-color var(--short) ease-in-out;
+}

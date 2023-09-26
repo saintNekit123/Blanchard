@@ -1,0 +1,89 @@
+.header {
+    background-color: var(--black);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.header-container {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    position: relative;
+    top: 5px;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+.header-logo:focus {
+    outline: none;
+}
+
+.header-nav {
+    align-items: center;
+    padding-right: 129px;
+}
+
+.header-list {
+    justify-content: space-between;
+}
+
+.header-item {
+    color: var(--white);
+}
+
+.header-item:not(:last-child) {
+    margin-right: 96px;
+}
+
+.header-link {
+    display: inline-block;
+    width: 115%;
+    text-align: center;
+    font-weight: var(--semibold); /* 600 */
+    font-size: 18px;
+    line-height: 24px;
+    transition: background-color var(--short) ease-in-out,
+        color var(--short) ease-in-out;
+}
+
+.header-link:focus:not(:hover) {
+    outline: 0;
+    background-color: var(--violet-dark);
+    background: var(--violet-dark);
+}
+
+.header-link:hover {
+    color: var(--violet-light);
+}
+
+.header-link:active {
+    color: var(--violet);
+    background-color: none;
+    background: none;
+}
+
+.header-btn {
+    position: relative;
+    top: 3px;
+    left: 5px;
+    flex-shrink: 0;
+    outline: none;
+    width: 37px;
+    height: 37px;
+    padding: 0;
+    border-radius: 0;
+}
+
+.header-btn:focus:not(:active) {
+    background-color: var(--violet-dark);
+}
+
+.header-btn:hover .svg-loup {
+    fill: var(--violet-light);
+}
+
+.header-btn:active .svg-loup {
+    fill: var(--violet);
+}

@@ -1,0 +1,94 @@
+.section-gallery {
+    background-image: url(../img/background-gallery.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery-block {
+    justify-content: space-between;
+}
+
+.gallery-title {
+    margin-bottom: 20px;
+    color: var(--white);
+    font-size: 49px;
+}
+
+.gallery-list-checkbox {
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 75px;
+    padding-bottom: 10px;
+}
+
+.gallery-lab {
+    color: var(--white);
+    font-weight: var(--regular); /* 400 */
+    font-size: 16px;
+    line-height: 32px;
+    align-items: center;
+}
+
+.gallery-time {
+    transition: color var(--short) ease-in-out;
+}
+
+.gallery-btn {
+    margin-right: 12px;
+}
+
+input[type="checkbox"] {
+    display: grid;
+    outline: none;
+    place-content: center;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: none;
+    color: currentColor;
+    font: inherit;
+    width: 12px;
+    height: 12px;
+    border: 1px solid currentColor;
+    border-radius: 0;
+    transition: color var(--short) ease-in-out, border var(--short) ease-in-out;
+}
+
+input[type="checkbox"]::before {
+    content: "";
+    width: 3px;
+    height: 3px;
+    background-color: var(--violet);
+    border-radius: 120px;
+    transform: scale(0);
+    transition: var(--short) transform ease-in-out;
+    box-shadow: inset 1em 1em var(--violet);
+}
+
+input[type="checkbox"]:checked::before {
+    transform: scale(1);
+}
+
+input[type="checkbox"]:checked {
+    border-color: var(--violet);
+}
+
+input[type="checkbox"]:checked ~ .gallery-time {
+    color: var(--violet);
+}
+input[type="checkbox"]:not(:checked),
+input[type="checkbox"]:not(:checked) ~ .gallery-time {
+    color: var(--white);
+}
+
+.gallery-lab:hover .gallery-btn {
+    color: var(--violet-light);
+}
+
+.gallery-item-paintings:not(:last-child) {
+    margin-right: 50px;
+}
+
+input[type="checkbox"]:not(:checked):focus ~ .gallery-time,
+input[type="checkbox"]:not(:checked):focus {
+    color: var(--violet);
+}
